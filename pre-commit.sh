@@ -39,7 +39,7 @@ build_readme() {
     echo "" >> $README
     echo "This table of contents is auto generated using [pre-commit.sh](pre-commit.sh) on every commit." >> $README
     echo "" >> $README
-    echo "Install it in your 🎵otes repo using \`ln pre-commit.sh .git/hoots/pre-commit\`" >> $README
+    echo "Install it in your 🎵otes repo using \`ln pre-commit.sh .git/hooks/pre-commit\`" >> $README
   fi
 
 }
